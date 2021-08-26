@@ -1,0 +1,41 @@
+// stringi
+
+var toAdd = 'hello';
+
+//opusczanie znaków i wstawianie zmiennych : old style
+
+var sampleStrOld = toAdd + 'world\nIt\'s me';
+var sampleStrOldBetter = toAdd + "wodrld\nIt's me";
+
+/* Hello world! 
+    It's me! */
+
+// new style for : ES6
+var sampleStrNew = 
+`${toAdd} world!
+It's me!`;
+
+//dlugosc
+console.log(sampleStr.length()); // 10
+
+var sampleStr = 'sample str';
+//notacja nawiasowa
+console.log(sampleStr[3]); //p
+
+//zadanie 1: jak znalezc ostatni znak stringa?
+
+console.log( sampleStr[sampleStr.length()-1] )
+
+//zadanie 2: jak odnalezc n-ty ostatni znak?
+console.log( sampleStr[sampleStr.length()-3] )
+
+//zanjdz 5 znak 
+
+//immutability of the string
+//// sampleStr[0] = 'i'
+
+sampleStr = 'inny str'; // to jest ok
+
+
+
+

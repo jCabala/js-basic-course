@@ -1,0 +1,51 @@
+/*
+var, let, const
+*/
+// PROBLEMY Z VAR
+
+if(1 === 1){
+    var temp = 5;
+    console.log(temp);
+}
+
+console.log(temp);
+
+console.log(sampleVar)// undefined;
+var sampleVar = 8;
+
+//let ratuje sytuacje
+if(1 === 1){
+    let temp = 5;
+    console.log(temp);
+}
+
+console.log(temp);
+
+console.log(sampleVar)// error;
+let sampleVar = 8;
+
+//CONST 
+const WINDOW_WIDTH = 500;
+
+const constArray = [1,2,3];
+constArray.push(12); // Zadziała czy nie?
+
+constArray = [2,6,8]
+
+const constObj = {
+    key1 : 1,
+    key2 : 3
+}
+
+let czlowiek = {
+    imie : 'Jan',
+    wiek : 23
+}
+
+czlowiek.imie = 'Jozek';
+czlowiek['ime psa'] = 'fafik';
+
+constObj.key1 = 6;
+
+// kiedy używać var?
+//1. NIGDY :)

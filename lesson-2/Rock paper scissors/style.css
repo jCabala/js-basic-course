@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  background-color: #065535;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* HEADER SECTION */
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 500px;
+  border: 2px solid white;
+
+  margin: 1rem auto;
+
+  padding: 1.5rem;
+}
+
+.header__title {
+  font-size: 45px;
+  color: white;
+}
+
+.header__score {
+  background-color: white;
+  color: #065535;
+  text-align: center;
+
+  padding: 5px;
+  border-radius: 8px;
+  min-width: 150px;
+}
+
+/* CHOICE SECTION */
+
+.choice-section {
+  display: flex;
+
+  width: 30rem;
+
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 1.5rem;
+}
+
+.rock {
+  margin-right: 15px;
+}
+
+.choice-section__choice:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+/* SCORE-SECTION */
+.score-section {
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+  margin: 5rem auto;
+}
+
+.score-section span {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+
+  text-align: center;
+
+  color: white;
+  font-size: 20px;
+}
+
+.score-section__restart-btn {
+  width: 8rem;
+  height: 4rem;
+  margin: 1rem auto;
+
+  background-color: #065535;
+  border: 3px solid white;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.score-section__restart-btn:hover {
+  background-color: white;
+  border: 3px solid white;
+  color: #065535;
+
+  cursor: pointer;
+}

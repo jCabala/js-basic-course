@@ -1,0 +1,30 @@
+//instrukcje warunkowe
+const c = 5;
+
+if(c === 6){
+    console.log('Not here');
+} else if(c === 7){
+    console.log('Also not here')
+} else {
+    console.log('Here');
+}
+
+//szybkie instrukcje warunkowe
+
+const condFunc = a => {
+    (a == 7) 
+    ? console.log(12)
+    : console.log(13);
+} // Nie działa z return
+
+// switch case 
+let checkStatus = status => {
+    switch(status){
+        case 'admin': 
+            console.log('Witaj, adminie. Możesz wprowadzać zmiany na serwerze.');
+        break;
+        case 'user': 
+            console.log('Jesteś tylko zwykłym użytkownikiem.');
+        break;
+    }
+}

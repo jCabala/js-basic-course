@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <!-- HEDER SECTION -->
+    <section class="header">
+      <h1 class="header__title">
+        Rock<br />
+        Paper<br />
+        Scissors
+      </h1>
+
+      <div class="header__score">
+        <h2>score</h2>
+        <br />
+        <span class="your-score" style="font-size: 70px; font-weight: bold"
+          >0</span
+        >
+      </div>
+    </section>
+
+    <!-- CHOICE SECTION -->
+    <section class="choice-section">
+      <div class="choice-section__choice rock">
+        <img height="150" src="./images/rock.png" alt="" />
+      </div>
+      <div class="choice-section__choice paper">
+        <img height="150" src="./images/paper.png" alt="" />
+      </div>
+      <div class="choice-section__choice scissors">
+        <img height="150" src="./images/scissors.png" alt="" />
+      </div>
+    </section>
+
+    <!-- SCORE SECTION -->
+    <section class="score-section hidden">
+      <div class="score-section__choice">
+        <img
+          class="your-choice"
+          height="150"
+          src="./images/scissors.png"
+          alt=""
+        />
+      </div>
+      <span text-align="center">
+        <h2 class="decision">You win!</h2>
+        <button class="score-section__restart-btn restart-btn">
+          Play again
+        </button>
+      </span>
+
+      <div class="score-section__choice">
+        <img
+          class="pc-choice"
+          height="150"
+          src="./images/scissors.png"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <!-- MAIN SCRIPT LINK -->
+    <script src="main.js"></script>
+  </body>
+</html>

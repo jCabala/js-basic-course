@@ -1,0 +1,8 @@
+//alerty
+alert('Hello world!');
+
+//prompt
+let a = prompt('Tutaj wpisz wartość:');
+
+//konsola
+console.log('Hello world!');

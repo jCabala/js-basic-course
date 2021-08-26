@@ -1,0 +1,61 @@
+// PĘTLE
+
+//FOR
+
+// 1,2,3
+
+//break
+for (var num = 1; num < 10; num+=2) {
+   
+    console.info('current num is' + num); 
+}
+//Jaki wynik?
+
+
+//for in
+const stolice = { 
+    "Grecja": "Ateny", 
+    "Polska": "Warszawa", 
+    "Rosja": "Moskwa" 
+}
+
+// Iterate over the properties.
+let str = ""
+for (let key in stolice) {
+    str += 
+    `Panstwo: ${key}, Stolica: ${stolice[key]}; 
+    `
+}
+
+
+
+// można używać for in do tablic, ale jest lepszy sposób
+
+// for of
+let arr = [8,9,3,4,5];
+for (let i of arr) {
+    console.log(i);
+}
+
+//z for in wygladalo by to tak
+for (let i in arr) {
+    console.log(arr[i]);
+}
+
+for (let i = 0; i <= arr.length; i++) {
+   console.log(arr[i]);
+}
+
+
+//while oraz do while
+
+let it = 4;
+while(it <= 3){
+    console.log(it);
+    it++;
+}
+
+let it2 = 6;
+do{
+    console.log(it2);
+} while(it2 <= 5);

@@ -1,0 +1,25 @@
+//tablice
+var myArray = [1 , 2, 'trzy', 4.0];
+var diffrentArray = new Array(1, 2, 3, 4);
+
+console.log(myArray[0]); // 1
+myArray[1] = 2.1;
+
+//wielowymiarowe
+
+var myMultArr = 
+[
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+];
+
+console.log(myMultArr[1][2]); // 6
+
+//przydatne metody
+myArray.push(6);
+myArra.unshift(7);
+
+console.log(myArray.pop()) // 6;
+console.log(myArray.shift()) // 7;
+

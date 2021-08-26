@@ -1,0 +1,9 @@
+//Zdefiniuj zmienną nazwij ją liczba. Jeśli bedzie dodtatnia ma przyjść alert z namisem np. 21 - jest dodatnia. Analogicznie dla ujemnej.
+
+//Zdefiniuj zmienną nazwij ją liczba. Jeśli będzie dodatnia to ma przyjść alert "dodatnia". Jeśli nie ma się pokazać np. tekst: "0/ujemna". Wykorzystaj instrukcję warunkową if ze składnią wykorzystującą symbole ? :.
+
+//Napisz kod, który dla zdefiniowanej szkolnej oceny (1,2,3,4,5,6) - zmienna ocena - wypisze w konsoli jej opis słowny np. dostateczny. Wykorzystaj switch-case.
+
+//Zbadaj wartość logiczną wyrażeń: "",0,null,undefined,"abc"," ",7,-45
+
+//Napisz skrypt, który dla 0, wypisze w konsoli tekst "Zero", dla innych liczb tekst "Liczba różna od zera".
